@@ -51,8 +51,11 @@ body .right {
     }
 }
 
-.container .componant .img-holder {
-    background-color: hsl(185deg 75% 39% / 49%);
+.container .componant .img-holder {}
+
+.container .componant .img-holder img {
+    width: 100%;
+    border-radius: 10px 10px 0px 1px;
 }
 
 .container .componant .info {
